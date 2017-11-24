@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* button style */
 .btn, .btn.disabled {
-    background: #f44336;
+    background: rgb(0, 80, 92);
     color: #ffffff;
     border: 0;
     border-radius: 20px;
@@ -120,17 +120,48 @@ label {
 	background-size: cover;
 }
 
+.developer-one {
+	position: fixed;
+    width: 26.7%;
+    height: 100%;	
+    padding: 20px;
+	background: url(../images/one.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.developer-two {
+	position: fixed;
+    width: 26.7%;
+    height: 100%;	
+    padding: 20px;
+	background: url(../images/two.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 .logo h1 {
     font-family: 'Nixie One', sans-serif;
     position: absolute;
-    color: #ffffff;
+    color: #00505c;
     font-size: 28px;
-    font-weight: 300;
     margin: 0;
-    top: 20px;
-    left: 20px;
+    top: 25%;
+    left: 10%;
+	font-weight: 900;
 }
 
+.logo h2 {
+	color: #00505c;
+	top: 25%;
+    left: 10%;
+}
 .event-banner-wrapper h2 {
     position: absolute;
 	font-family: 'Nixie One', sans-serif;
@@ -199,7 +230,7 @@ label {
 .event-tab .nav-tabs > li > a:hover, 
 .event-tab .nav-tabs > li > a:focus {
 	background: transparent;
-    color: #000000;
+    color: rgb(0, 80, 92);
     border: 1px solid transparent;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
@@ -243,11 +274,11 @@ label {
     -webkit-transition: all 0.5s;
 }
 
-.ticketBox .ticket-name span {
-    color: #666;
+.ticketBox .ticket-name {
+    color: #00505c;
     display: block;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .ticketBox .ticket-price-count-box .price {
@@ -296,13 +327,13 @@ label {
 .ticketBox .ticket-price-count-box .ticket-control .input-group .input-group-btn button:hover,
 .ticketBox .ticket-price-count-box .ticket-control .input-group .input-group-btn button:focus {
 	outline: none;
-	background: rgba(0, 0, 0, 0.15);
+	background: rgb(0, 80, 92, 0.75);
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
 
 .ticketBox .ticket-description {
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-top: 1px solid rgba(0, 80, 92, 0.3);
     margin-top: 15px;
     padding-top: 15px;
 }
@@ -328,7 +359,7 @@ iframe {
 /* cart style */
 .cart {
     padding: 20px 40px;
-    background: #fff;
+    background: transparent;
     margin-bottom: 0;
     position: fixed;
     left: 41.66666667%;
