@@ -178,29 +178,31 @@ label {
 
 
 .developer-one {
-	position: fixed;
-    width: 26.7%;
-    height: 100%;	
+	width: 50pt;
+    height: 50pt;
     padding: 20px;
-	background: url(../images/one.jpg);
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+    background: url(../images/developer-one.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 100%;
+	margin-bottom: 10pt;
 }
 
 .developer-two {
-	position: fixed;
-    width: 26.7%;
-    height: 100%;	
+	width: 50pt;
+    height: 50pt;
     padding: 20px;
-	background: url(../images/two.jpg);
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+    background: url(../images/developer-two.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 100%;
+	margin-bottom: 10pt;
 }
 
 .logo {
@@ -268,11 +270,12 @@ label {
 	top: 0;
 	left: 41.66666667%;
 	background: #fff;
-	width: 58.33333333%;
+	width: 100%;
 	border-bottom: 0;
     padding: 20px 40px;
 	margin-bottom: 30px;
     z-index: 99;
+	margin-left: -15%;
 }
 
 .event-tab .nav-tabs > li > a {
@@ -397,6 +400,7 @@ label {
 	border-top: 1px solid rgba(0, 80, 92, 0.3);
     margin-top: 15px;
     padding-top: 15px;
+	margin-botton: 15px;
 }
 
 .ticketBox .ticket-description p {
@@ -466,6 +470,10 @@ iframe {
 .cart-information ul {
 	margin: 0;
 	padding: 0;
+}
+
+.developer-name {
+	border-bottom: 1pt dotted #00505c;
 }
 
 .cart-information ul li {
