@@ -151,25 +151,29 @@ label {
 	background-size: cover;
 }
 
-@media (min-width: 501px) {
-	.logo-img {
-		float: right;
-	}
-}
-
 .logo-img {
+	float: right;
+	top: 0%;
 	position: relative;
-    width: 100%;
-    min-height: 250px;
-    top: 40%;
-    background: url(../images/ursa-page.png);
+	width: 70%;
+	min-height: 200px;
+	max-height: 250px;
+	background: url(../images/ursa-page.png);
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-size : 100% 100%;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 768px) {
+	.logo-img {
+		width: 100%;
+		min-height: 250px;
+		top: 40%;
+	}
 }
 
 
@@ -209,7 +213,7 @@ label {
     font-family: 'Nixie One', sans-serif;
     color: #00505c;
     font-size: 28px;
-	margin: 42% 5%;
+	margin: 25% 5%;
     font-weight: 900;
 	width: 100%
 }
