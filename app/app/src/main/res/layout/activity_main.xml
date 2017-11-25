@@ -36,19 +36,6 @@
         android:visibility="visible"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            android:adjustViewBounds="true"
-            android:cropToPadding="true"
-            android:src="@drawable/crop2"
-            android:visibility="visible"
-            app:layout_constraintEnd_toEndOf="parent"
-            tools:layout_editor_absoluteY="0dp" />
-
     </android.support.v4.view.ViewPager>
 
     <android.support.design.widget.FloatingActionButton
