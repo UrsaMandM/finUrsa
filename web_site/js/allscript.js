@@ -77,7 +77,7 @@ $('.input-number').change(function() {
 
 function activeTicket(target, inputValue, ticketPrice, total, ticketType) {
 	if(inputValue > 0) {
-		$('#termCondition .ticketBox').addClass('inActiveTicket');
+		$('#buyTicket .ticketBox').addClass('inActiveTicket');
 		$(target).parents('.ticketBox').removeClass('inActiveTicket').addClass('activeTicket');
 		$('.cart .btn').removeClass('disabled');
 		$('.ticket-type').html(ticketType);
