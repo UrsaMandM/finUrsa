@@ -112,13 +112,30 @@ label {
     width: 26.7%;
     height: 100%;	
     padding: 20px;
-	background: url(../images/event-banner.jpg);
+	background: url(../images/event-banner-white.jpg);
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+.logo-img {
+	position: fixed;
+    width: 40%;
+    height: 100%;
+    left: -7%;
+    top: 0%;
+    background: url(../images/ursa-page.png);
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-size: 49% 43%;
+    background-repeat: no-repeat;
+}
+
 
 .developer-one {
 	position: fixed;
@@ -146,31 +163,35 @@ label {
 	background-size: cover;
 }
 
-.logo h1 {
+.logo {
+	position: absolute;
+    color: #00505c;
+    margin: 0;
+	opacity: 1;
+}
+.main h1 {
     font-family: 'Nixie One', sans-serif;
-    position: absolute;
     color: #00505c;
     font-size: 28px;
-    margin: 0;
-    top: 25%;
-    left: 10%;
-	font-weight: 900;
+	margin: 42% 5%;
+    font-weight: 900;
+	width: 100%
 }
 
-.logo h2 {
-	color: #00505c;
-	top: 25%;
-    left: 10%;
-}
-.event-banner-wrapper h2 {
-    position: absolute;
+.main h2 {
+	position: absolute;
 	font-family: 'Nixie One', sans-serif;
 	font-size: 4vw;
     font-weight: 900;
 	line-height: 4.5vw;
-	color: #fff;
-    margin: 0;
-    bottom: 30px;
+	color: #00505c;
+	margin: 0;
+	bottom: 30px;
+}
+
+.main span {
+	color: #00505c;
+	font-size: 14pt;
 }
 
 .event-banner-wrapper h2 span {
@@ -513,6 +534,7 @@ iframe {
     width: 100%;
     height: 300px;
 	padding: 15px;
+	opacity: 0.65;
 }
 
 .event-banner-wrapper h2 {
