@@ -1,36 +1,32 @@
-These questions lead us to the story behind our application.
-
-bearMoney combines all existing applications for finance management (including daily expenditures and savings), insurance management and helps customers to be informed about their possibility to impact environment and preserve nature for future generations.
-
-The core functionality helps user to track on what exactly (s)he spends money. This will help bank customers to better plan their savings. In addition, this information can help shops to plan what kind of goods and what amount of them they would possibly need to have by the time our customer would want to go for shopping. This also might have a better impact on the environment, as less food (and packages used) will be dumped. 
-
-As our application has an access to expenditures information, it is possible to 
-
 Inspiration
-Nowadays quite many people have vague idea how do they spent money. Moreover, in most cases people underestimate their income and expenditures. In turns, this forces them to either loan money for short terms or limit costs to almost zero. We would like to offer simple but effective and educating solution, which will help the user to manage daily (or monthly) costs and savings. 
+Nowadays quite many people have vague idea how do they spent money. Moreover, in most cases people underestimate their income and expenditures. In turns, this might force them to either loan money for short terms or limit costs to almost zero. We would like to offer simple but effective solution, which will help the user to manage daily (or monthly) costs and savings. 
 
 Capabilities of the app
-
+The core functionality helps user to track on what exactly (s)he spends money. This will help bank customers to better plan their savings. 
 
 How we build it:
-Matti Karhunen goes to the grocery once in a week. From the shop, Matti usually purchases food, household goods and sometimes clothes and footwear. Matti used to estimate his total monthly costs, incomes and savings. One week Matti recieves a newsletter from a bank, which suggests him to try new application for finances management, because he hopes that it will save his time filling out the detailed information about his purchases. Matti installs ap and connects his creadit card to the app. The next day Matti notices that he is out of milk, and visits the nearest small grocery shop. After payment went through, Matti notices that he had recieved a push notification that contains reciept. Also recieved information will be stored in the database and form the costs tables for current month. 
+Matti Karhunen goes to the grocery once in a week. From the shop, Matti usually purchases food, household goods and sometimes clothes and footwear. Matti used to estimate his total monthly costs, incomes and savings. One week Matti recieves a newsletter from a bank, which suggests him to try a new application for finance management, because he hopes that it will save his time filling out the detailed information about his purchases. Matti downloads and installs the app and connects his creadit card and phone number to it. The next day Matti notices that he is out of milk, and visits the nearest small grocery shop. After payment went through, Matti notices that he had recieved a push notification that contains reciept. 
+The recieved information will be stored in the database and form the costs tables for current month. 
 
-Matti seems to get used to the app and enjoys using. However there are some features he does not about yet. After omonth had passed, there is enough information in the database, to generate shopping lists for Matti for his weekly shopping. In addition, Matti notices that the list takes into account how often did he buy certain goods during the month.
+Month later, Matti seems to get used to the app and enjoys using it. However, there are yet some features he does not know about. After month had passed, there is already enough information in the database to generate shopping lists for Matti for his weekly shopping. In addition, Matti notices that the shopping list takes into account how often did he buy certain goods during the month. дописать
 
-At the same time, two kilometers away from Matti's home there is a grocery store. Before bank did launch the application, store's owner Mikko agreeed with the bank to share information about his or her customers' purchases. Instead Mikko have an opportunity to reduce usage of paper receipts. This will not only make grocery a bit nature friendly but also cut exapenses on the paper for recepts and maintanance of old cash machine systems.
+At the same time, 600m away from Matti's home there is a grocery store. Before bank did launch the application, store's owner Mikko agreeed with the bank to share information about his customers' purchases. Instead Mikko have an opportunity to reduce usage of paper receipts. This will not only make grocery a bit nature friendly but also cut expenses on the paper for recepts and maintanance of old cash machine systems.
+
+банк?
 
 
-What chanllanges did we run into
-One of the biggest challenges was to narrow down the idea, and create more specific use cases. Also we realised that this kind of application requires more time and better time management. Yet another challenge is to persuade shops, especially representatives of chains to share information with banks and decide what we will provide them with instead.
+What chanllеnges did we run into? 
+One of the biggest challenges was to narrow down the idea, and create more specific use cases. Also we realised that prototype creation of this kind of application requires more time and better time management, and bigger team. Yet another challenge is to persuade shops, especially representatives of big shop chains, to share information with banks and decide what we will provide them with instead.
 
 Accomplishments & what we've learnt:
 - Creation of user stories
 - Perform business analysis and question already existing ideas
-- Improved UI design
+- Improved UI design skills
+
 - Do not give up no matter how unsure you are about the solution
 - Right people and look from outside can cheer you up and "open new horizons"
 
 Future of the bearMoney
-It should be thought more thoroughly about possible security issues and vulnerabilites. 
-
+It should be thought more thoroughly about possible security issues and vulnerabilities. 
+Utilize information from club cards about bonuses.
 
